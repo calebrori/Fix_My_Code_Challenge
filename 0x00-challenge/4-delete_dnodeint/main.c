@@ -5,6 +5,8 @@
 
 /**
  * main - check the code for Holberton School students.
+ * add_nodes - function is responsible for adding nodes to the list
+ * delete_nodes - function deletes a node at a specified index and printing the list
  *
  * Return: Always EXIT_SUCCESS.
  */
