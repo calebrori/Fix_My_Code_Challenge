@@ -17,35 +17,35 @@ add_dnodeint_end(head, 1024);
 
 void delete_nodes(dlistint_t **head, int index)
 {
-    delete_dnodeint_at_index(head, index);
-    print_dlistint(*head);
-    printf("-----------------\n");
+delete_dnodeint_at_index(head, index);
+print_dlistint(*head);
+printf("-----------------\n");
 }
 
 int main(void)
 {
     dlistint_t *head = NULL;
 
-    add_nodes(&head);
+add_nodes(&head);
 
-    delete_nodes(&head, 5);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
-    delete_nodes(&head, 0);
+delete_nodes(&head, 5);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
+delete_nodes(&head, 0);
 
-    free_dlistint(head);
-    return (0);
+free_dlistint(head);
+return (0);
 }
