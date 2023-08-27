@@ -3,7 +3,8 @@
 #include <stdio.h>
 #include "lists.h"
 
-void add_nodes(dlistint_t **head) {
+void add_nodes(dlistint_t **head)
+{
     add_dnodeint_end(head, 0);
     add_dnodeint_end(head, 1);
     add_dnodeint_end(head, 2);
@@ -14,13 +15,15 @@ void add_nodes(dlistint_t **head) {
     add_dnodeint_end(head, 1024);
 }
 
-void delete_nodes(dlistint_t **head, int index) {
+void delete_nodes(dlistint_t **head, int index)
+{
     delete_dnodeint_at_index(head, index);
     print_dlistint(*head);
     printf("-----------------\n");
 }
 
-int main(void) {
+int main(void)
+{
     dlistint_t *head = NULL;
 
     add_nodes(&head);
