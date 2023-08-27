@@ -3,6 +3,12 @@
 #include <stdio.h>
 #include "lists.h"
 
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always EXIT_SUCCESS.
+ */
+
 void add_nodes(dlistint_t **head)
 {
 add_dnodeint_end(head, 0);
@@ -24,7 +30,7 @@ printf("-----------------\n");
 
 int main(void)
 {
-    dlistint_t *head = NULL;
+dlistint_t *head = NULL;
 
 add_nodes(&head);
 
